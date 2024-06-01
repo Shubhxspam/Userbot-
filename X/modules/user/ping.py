@@ -156,7 +156,7 @@ async def pink(client: Client, message: Message):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await X.edit(
-        f"**❏Japanese-X-Userbot**\n"
+        f"**❏Kitty-X-Userbot**\n"
         f"**├• PING   :** "
         f"`%sms` \n"
         f"**├•  Uptime  :** "
@@ -199,3 +199,4 @@ async def X(client: Client, message: Message):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await xx.edit
+        
