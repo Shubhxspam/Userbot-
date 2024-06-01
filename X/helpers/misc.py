@@ -141,7 +141,7 @@ async def create_botlog(client):
     LOGGER("X").info(
         "WAIT A MOMENT MASTER. CURRENTLY CREATING A USERBOT LOG GROUP FOR YOU"
     )
-    desc = "Group Log for Japanese-X-Userbot.\n\PLEASE DO NOT LEAVE THE GROUP INI.\n\nPowered By ~ @Japanese_Userbot ❤️"
+    desc = "Group Log for Japanese-X-Userbot.\n\PLEASE DO NOT LEAVE THE GROUP INI.\n\nPowered By ~ @Kittyxupdates ❤️"
     try:
         photo = "X/resources/logo.jpg"
         gruplog = await client.create_supergroup("Japanese-X-Userbot Logs", desc)
@@ -155,5 +155,6 @@ async def create_botlog(client):
             dotenv.set_key(path, "BOTLOG_CHATID", gruplog.id)
     except Exception:
         LOGGER("X").warning(
-            "var BOTLOG_CHATID you haven't filled it in yet. Create a telegram group and enter the bot @MissRose_bot then type /id Enter the group ID in var BOTLOG_CHATID"
-)
+            "var BOTLOG_CHATID you haven't filled it in yet. Create a telegram group and enter the bot @kittyxmusic_bot then type /id Enter the group ID in var BOTLOG_CHATID"
+        )
+    
