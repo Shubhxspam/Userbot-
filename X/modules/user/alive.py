@@ -69,7 +69,7 @@ alive_logo = (
     gvarstatus("ALIVE_LOGO") or ""
 )
 emoji = gvarstatus("ALIVE_EMOJI") or "✧"
-alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "✧✧ 𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄-𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄 ✧✧"
+alive_text = gvarstatus("ALIVE_TEKS_CUSTOM") or "✧✧ 𝐊𝐈𝐓𝐓𝐘-𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄 ✧✧"
 
 
 @Client.on_message(
@@ -89,9 +89,9 @@ async def alip(client: Client, message: Message):
         f"{emoji} <b>𝐕ᴇʀꜱɪᴏ𝐍:</b> <code>{BOT_VER}</code> \n\n"
         f"{emoji} <b>𝐌ᴏᴅᴜʟᴇ𝐒:</b> <code>{len(modules)} 𝐌ᴏᴅᴜʟᴇ𝐒</code> \n\n"
         f"{emoji} <b>𝐏ʏᴛʜᴏ𝐍 𝐕ᴇʀꜱɪᴏ𝐍:</b> <code>{python_version()}</code> \n\n"
-        f"{emoji} <b>𝐆ʀᴏᴜ𝐏 :</b> [𝐒ᴜᴘᴘᴏʀ𝐓](https://t.me/Japanese_Userbot_Support)** \n\n"
-        f"{emoji} <b>𝐂ʜᴀɴɴᴇʟ:<b> [𝐔ᴘᴅᴀᴛᴇ𝐒](https://t.me/Japanese_Userbot)** \n\n"
-        f"{emoji} <b>[𝐃ᴇᴘʟᴏʏ](http://dashboard.heroku.com/new?template=https://github.com/Team-Japanese/Japanese-X-Userbot) 𝐘ᴏᴜʀ 𝐎ᴡɴ [𝐉𝐀𝐏𝐀𝐍𝐄𝐒𝐄-𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓](http://github.com/Team-Japanese/Japanese-X-Userbot) ✧\n\n"
+        f"{emoji} <b>𝐆ʀᴏᴜ𝐏 :</b> [𝐒ᴜᴘᴘᴏʀ𝐓](https://t.me/kittyxupdates)** \n\n"
+        f"{emoji} <b>𝐂ʜᴀɴɴᴇʟ:<b> [𝐔ᴘᴅᴀᴛᴇ𝐒](https://t.me/Herokue_cc)** \n\n"
+        f"{emoji} <b>[𝐃ᴇᴘʟᴏʏ](https://t.me/+jgfzmJ0VxCwyYWRl) 𝐘ᴏᴜʀ 𝐎ᴡɴ [𝐊𝐈𝐓𝐓𝐘 -𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓](https://t.me/kittyxupdates) ✧\n\n"
         
     )
     try:
@@ -197,3 +197,4 @@ async def setemoji(client: Client, message: Message):
     sql.addgvar("ALIVE_EMOJI", emoji)
     await X.edit(f"**Successfully Customize ALIVE EMOJI Becomes** {emoji}")
     restart()
+    
