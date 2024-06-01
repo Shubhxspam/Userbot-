@@ -187,7 +187,7 @@ async def upstream(client: Client, message: Message):
             repo.__del__()
             return
         await status.edit(
-            "`[HEROKU]: Update Deploy Japanese X Userbot In process...`"
+            "`[HEROKU]: Update Deploy Kitty X Userbot In process...`"
         )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
@@ -204,7 +204,7 @@ async def upstream(client: Client, message: Message):
         except GitCommandError:
             pass
         await status.edit(
-            "`Japanese X Userbot Updated Successfully! Userbot can be used again.`"
+            "`Kitty X Userbot Updated Successfully! Userbot can be used again.`"
         )
     else:
         try:
@@ -213,7 +213,7 @@ async def upstream(client: Client, message: Message):
             repo.git.reset("--hard", "FETCH_HEAD")
         await updateme_requirements()
         await status.edit(
-            "`Japanese X Userbot Updated Successfully! Userbot can be used again.`",
+            "`Kitty X Userbot Updated Successfully! Userbot can be used again.`",
         )
         args = [sys.executable, "-m", "X"]
         execle(sys.executable, *args, environ)
@@ -285,7 +285,7 @@ async def updaterman(client: Client, message: Message):
 add_command_help(
     "•─╼⃝𖠁 ᴜᴘᴅᴀᴛᴇ",
     [
-        ["update", "Tᴏ ꜱᴇᴇ ᴀ ʟɪꜱᴛ ᴏғ ᴛʜᴇ ʟᴀᴛᴇꜱᴛ ᴜᴘᴅᴀᴛᴇꜱ ғʀᴏᴍ Jᴀᴘᴀɴᴇꜱᴇ-X-Uꜱᴇʀʙᴏᴛ."],
+        ["update", "Tᴏ ꜱᴇᴇ ᴀ ʟɪꜱᴛ ᴏғ ᴛʜᴇ ʟᴀᴛᴇꜱᴛ ᴜᴘᴅᴀᴛᴇꜱ ғʀᴏᴍ Uꜱᴇʀʙᴏᴛ."],
         ["update deploy", "Tᴏ ᴜᴘᴅᴀᴛᴇ ᴜꜱᴇʀʙᴏᴛ."],
     ],
   )
