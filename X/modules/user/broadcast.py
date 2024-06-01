@@ -73,7 +73,7 @@ del _GCAST_BLACKLIST
 )
 async def gcast_cmd(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
-        Man = await edit_or_reply(message, "`Limit Don't blame JAPANESE X USERBOT, Started global broadcast...`")
+        Man = await edit_or_reply(message, "`Limit Don't blame KITTY X USERBOT, Started global broadcast...`")
     else:
         return await message.edit_text("**The message is Where to fuck**")
     done = 0
@@ -230,4 +230,5 @@ add_command_help(
             f"Tᴏ Dᴇʟᴇᴛᴇ ᴛʜᴇ ɢʀᴏᴜᴘ ғʀᴏᴍ ʙʟᴀᴄᴋʟɪꜱᴛ ɢᴄᴀꜱᴛ.\n\n  •  **Note : **Type command** `{cmd}addblacklist` **dan** `{cmd}delblacklist` **ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ Bʟᴀᴄᴋʟɪꜱᴛ.",
         ],
     ],
-                  )
+)
+    
