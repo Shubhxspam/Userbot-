@@ -26,13 +26,13 @@ class First:
 **𝐇𝐞𝐲**, __𝐈 𝐚𝐦 𝐮𝐬𝐢𝐧𝐠__ ✨ **𝐊𝐢𝐭𝐭𝐲-𝐗-𝐔𝐬𝐞𝐫𝐛𝐨𝐭** ✨
 
 ✣ **𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐕𝐞𝐫𝐬𝐢𝐨𝐧 :** `{}`
-✣ **𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 :** [𝐊𝐢𝐭𝐭𝐲 𝐔𝐬𝐞𝐫𝐛𝐨𝐭](t.me/Kittyxupdates)
-✣ **𝐂𝐡𝐚𝐧𝐧𝐞𝐥 :** [𝐊𝐢𝐭𝐭𝐲 𝐔𝐬𝐞𝐫𝐛𝐨𝐭](t.me/Herokue_cc)
+✣ **𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 :** [𝐊𝐢𝐭𝐭𝐲 𝐔𝐬𝐞𝐫𝐛𝐨𝐭](t.me/+PJlewyGw0w0yYTg1)
+✣ **𝐂𝐡𝐚𝐧𝐧𝐞𝐥 :** [𝐊𝐢𝐭𝐭𝐲 𝐔𝐬𝐞𝐫𝐛𝐨𝐭](t.me/kittyxupdates)
 ✣ **𝐎𝐰𝐧𝐞𝐫  :** [🇲σ᭡፝֟ɳ🌙](t.me/Moonshining2)
-✣ **𝐑𝐞𝐩𝐨 :** [𝐊𝐢𝐭𝐭𝐲-𝐗-𝐔𝐬𝐞𝐫𝐛𝐨𝐭](https://t.me/+jgfzmJ0VxCwyYWRl)
+✣ **𝐑𝐞𝐩𝐨 :** [𝐊𝐢𝐭𝐭𝐲-𝐗-𝐔𝐬𝐞𝐫𝐛𝐨𝐭](https://t.me/+PJlewyGw0w0yYTg1)
 
 
-𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 [𝐊𝐢𝐭𝐭𝐲-𝐗-𝐔𝐬𝐞𝐫𝐛𝐨𝐭](https://github.com/Team-Japanese/Japanese-X-Userbot)"""
+𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 [𝐊𝐢𝐭𝐭𝐲-𝐗-𝐔𝐬𝐞𝐫𝐛𝐨𝐭](t.me/+PJlewyGw0w0yYTg1)"""
     CREATOR = '𝐈 𝐰𝐚𝐬 𝐜𝐫𝐞𝐚𝐭𝐞𝐝 𝐛𝐲 𝐦𝐲 𝐦𝐚𝐬𝐭𝐞𝐫 <a href="https://t.me/kittyxupdates">𝐊𝐢𝐭𝐭𝐲-𝐗-𝐔𝐬𝐞𝐫𝐛𝐨𝐭</a> 𝐨𝐧 𝐚 𝐫𝐚𝐢𝐧𝐲 𝐝𝐚𝐲.'
     MSG_ON = """
 🐣 **𝐊𝐢𝐭𝐭𝐲-𝐗-𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐀𝐜𝐭𝐢𝐯𝐚𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲** 🐣
@@ -507,3 +507,4 @@ class MEMES:
     😋😋       😋😋
 """
     
+
