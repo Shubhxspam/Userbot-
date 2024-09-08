@@ -54,7 +54,7 @@ def pmowner(client, callback_query):
     client.answer_callback_query(callback_query.id, text="Message sent")
 
 logoX = [
-    "https://telegra.ph/file/8e3ef6cf419ef40d8079e.jpg"
+    "https://telegra.ph/file/562a071a222f60c93f45a.jpg"
 ]
 
 alive_logo = random.choice(logoX)
@@ -63,13 +63,21 @@ alive_logo = random.choice(logoX)
 async def start(app, message):
     chat_id = message.chat.id
     file_id = alive_logo
-    caption = "Hello, Mʏ Mᴀsᴛᴇʀ!!\nNice To Meet You 🤗 !!\nI guess, that you know me, Uhh you don't, np..\nWell.\n\nA Pᴏᴡᴇʀғᴜʟ Assɪᴛᴀɴᴛ \n\n Pᴏᴡᴇʀᴇᴅ Bʏ [𝐊𝐈𝐓𝐓𝐘  𝐗 𝐔𝐒𝐄𝐑𝐁𝐎𝐓](t.me/Kittyxupdates)\n\nYᴏᴜ Cᴀɴ Cʜᴀᴛ Wɪᴛʜ Mʏ Mᴀsᴛᴇʀ Tʜʀᴏᴜɢʜ Tʜɪs Bᴏᴛ.\nIғ Yᴏᴜ Wᴀɴᴛ Yᴏᴜʀ Oᴡɴ Assɪᴛᴀɴᴛ Yᴏᴜ Cᴀɴ Dᴇᴘʟᴏʏ Fʀᴏᴍ Bᴜᴛᴛᴏɴ Bᴇʟᴏᴡ."
+    caption = "❖ нᴇʏ,{0}\n│❖ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ 🤗 !!\n•─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─•\n❍ ɪ ᴀᴍ{1}\n│❍ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs\n•─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─•\│❖ [ɪ ᴀᴍ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ Usᴇʀʙᴏᴛ](t.me/Kittyxupdates)\n❖ A powerful stable and cute telegram userbot \n•─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─•"
     reply_markup = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="https://t.me/https://t.me/herokue_cc"),
-            InlineKeyboardButton("𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/kittyxupdates"),
-            InlineKeyboardButton("𝐎𝐰𝐧𝐞𝐫", url="https://t.me/Moonshining2"),
-            InlineKeyboardButton("𝐑𝐞𝐩𝐨", url="https://t.me/https://t.me/+jgfzmJ0VxCwyYWRl"),
+            InlineKeyboardButton("+ Add me to your clan darlo +", url="https://t.me/kittyxmusic_bot?startgroup=true"),
+            ],
+            [
+            InlineKeyboardButton("🎄 Update 🎄", url="https://t.me/kittyxupdates"),
+            InlineKeyboardButton("🇲σ᭡፝֟ɳ🌙", url="https://t.me/Moonshining2"),
+            ],
+            [
+            InlineKeyboardButton("✨ Support ✨", url="https://t.me/+PJlewyGw0w0yYTg1"),
+            InlineKeyboardButton("❄ Help ❄", url="https://t.me/Kitty_musicXbot"),
+            ],
+            [
+            InlineKeyboardButton("+ If you want to get userbot then DM me +", url="https://t.me/KittyxOwner_bot"),
         ],
     ])
 
