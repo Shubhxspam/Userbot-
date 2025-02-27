@@ -94,7 +94,7 @@ async def alive_function(message: Message, answers):
         InlineQueryResultArticle(
             title="alipp",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/8e3ef6cf419ef40d8079e.jpg",
+            thumb_url="https://graph.org/file/119d5fac10c2ac919ca87-8c3a86927f5ce2f63a.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -120,8 +120,8 @@ async def pingme(client: Client, message: Message):
 
 async def peler_function(message: Message, answers):
     msg = (
-        f"Kitty-X-Userbot \n"
-        "ㅤㅤStatus : Kitty-X-Userbot Active \n"
+        f"Shubh-X-Userbot \n"
+        "ㅤㅤStatus : Shubh-X-Userbot Active \n"
         f"ㅤㅤㅤㅤModules:</b> <code>{len(modules)} Modules</code> \n"
         f"ㅤㅤㅤㅤBot Version: {BOT_VER} \n"
         f"ㅤㅤㅤㅤBranch: {branch} \n\n"
@@ -130,12 +130,12 @@ async def peler_function(message: Message, answers):
         InlineQueryResultArticle(
             title="alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/8e3ef6cf419ef40d8079e.jpg",
+            thumb_url="https://graph.org/file/119d5fac10c2ac919ca87-8c3a86927f5ce2f63a.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/Kittyxupdates"), InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/Moonshining2")], [InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data="reopen")]]
+                [[InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="https://t.me/Mrshubh_1227"), InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/Moonshining2")], [InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data="reopen")]]
             ),
         )
     )
@@ -148,7 +148,7 @@ async def help_function(answers):
         InlineQueryResultArticle(
             title="Help Article!",
             description="Check Command List & Help",
-            thumb_url="https://telegra.ph/file/8e3ef6cf419ef40d8079e.jpg",
+            thumb_url="https://graph.org/file/119d5fac10c2ac919ca87-8c3a86927f5ce2f63a.jpg",
             input_message_content=InputTextMessageContent(
                 Data.text_help_menu.format(len(CMD_HELP))
             ),
