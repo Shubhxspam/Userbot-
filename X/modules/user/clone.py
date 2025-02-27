@@ -46,7 +46,7 @@ from X.helpers.basic import edit_or_reply, get_text, get_user
 from .help import *
 
 OWNER = os.environ.get("OWNER", None)
-BIO = os.environ.get("BIO", "𝐊𝐈𝐓𝐓𝐘-𝐗-𝐔𝐒𝐄𝐑𝐁𝐎𝐓")
+BIO = os.environ.get("BIO", "𝐉σιη 𝐓нιѕ 𝐂нαηηєℓ :- @Seethistoknow contact :- 8009291791")
 
 
 @Client.on_message(
