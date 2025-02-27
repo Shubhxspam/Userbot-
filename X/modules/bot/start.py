@@ -49,12 +49,12 @@ from config import OWNER_ID as owner
 @app.on_callback_query()
 def pmowner(client, callback_query):
     user_id = owner
-    message = "A Pᴏᴡᴇʀғᴜʟ Assɪᴛᴀɴᴛ 𝐊𝐈𝐓𝐓𝐘  𝐗 𝐔𝐒𝐄𝐑𝐁𝐎𝐓!!!!"
+    message = "A Pᴏᴡᴇʀғᴜʟ Assɪᴛᴀɴᴛ 𝐒𝐇𝐔𝐁𝐇  𝐗 𝐔𝐒𝐄𝐑𝐁𝐎𝐓!!!!"
     client.send_message(user_id, message)
     client.answer_callback_query(callback_query.id, text="Message sent")
 
 logoX = [
-    "https://telegra.ph/file/562a071a222f60c93f45a.jpg"
+    "https://graph.org/file/119d5fac10c2ac919ca87-8c3a86927f5ce2f63a.jpg"
 ]
 
 alive_logo = random.choice(logoX)
@@ -63,21 +63,21 @@ alive_logo = random.choice(logoX)
 async def start(app, message):
     chat_id = message.chat.id
     file_id = alive_logo
-    caption = "❖ нᴇʏ,{0}\n│❖ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ 🤗 !!\n•─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─•\n❍ ɪ ᴀᴍ{1}\n│❍ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs\n•─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─•\│❖ [ɪ ᴀᴍ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ Usᴇʀʙᴏᴛ](t.me/Kittyxupdates)\n❖ A powerful stable and cute telegram userbot \n•─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─•"
+    caption = "❖ нᴇʏ,{0}\n│❖ ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ 🤗 !!\n•─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─•\n❍ ɪ ᴀᴍ{1}\n│❍ ɪ ʜᴀᴠᴇ sᴘᴇᴄɪᴀʟ ғᴇᴀᴛᴜʀᴇs\n•─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─•\│❖ [ɪ ᴀᴍ ᴍᴏsᴛ ᴘᴏᴡᴇʀғᴜʟ UsᴇʀʙInlineKeyboardM)\n❖ A powerful stable and cute telegram userbot \n•─┈─┈─┈─┈─┈─┈─┈─┈─┈─┈─•"
     reply_markup = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("+ Add me to your clan darlo +", url="https://t.me/kittyxmusic_bot?startgroup=true"),
+            InlineKeyboardButton("+ Add me to your clan darlo +", url="https://t.me/Melodymusics_bot?startgroup=true"),
             ],
             [
-            InlineKeyboardButton("🎄 Update 🎄", url="https://t.me/kittyxupdates"),
-            InlineKeyboardButton("🇲σ᭡፝֟ɳ🌙", url="https://t.me/Moonshining2"),
+            InlineKeyboardButton("🎄 ᴍᴏᴠɪᴇ 🎄", url="https://t.me/MoviesWDs_bot"),
+            InlineKeyboardButton("𝐌я.𝐏αѕѕєяву🌙", url="https://t.me/Demonxcoder"),
             ],
             [
-            InlineKeyboardButton("✨ Support ✨", url="https://t.me/+PJlewyGw0w0yYTg1"),
-            InlineKeyboardButton("❄ Help ❄", url="https://t.me/Kitty_musicXbot"),
+            InlineKeyboardButton("✨ sᴜᴘᴘᴏʀᴛ ✨", url="https://t.me/Mrshubh_1227"),
+            InlineKeyboardButton("❄ Help ❄", url="https://t.me/Mrshubh_1227"),
             ],
             [
-            InlineKeyboardButton("+ If you want to get userbot then DM me +", url="https://t.me/KittyxOwner_bot"),
+            InlineKeyboardButton("+ If you want to get userbot then DM me +", url="https://t.me/Submissions1227_bot"),
         ],
     ])
 
